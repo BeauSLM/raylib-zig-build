@@ -1,0 +1,3 @@
+[submodule "external/zig-compile-commands"]
+	path = external/zig-compile-commands
+	url = git@github.com:BeauSLM/zig-compile-commands.git

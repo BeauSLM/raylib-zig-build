@@ -1,0 +1,15 @@
+.{
+    .name = "tutr",
+    .version = "0.0.1",
+    .paths = .{
+        "src",
+        "build.zig",
+        "build.zig.zon",
+    },
+    .dependencies = .{
+        .raylib = .{
+            .url = "https://github.com/BeauSLM/raylib/archive/56f2980940770be132ac8be73e6731a6e76254b8.tar.gz",
+            .hash = "12207cfd68fd57b13ee8d4fa0f3059c164dc8624b27857d8450401b83240447baaef",
+        },
+    },
+}
