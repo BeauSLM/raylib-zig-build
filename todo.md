@@ -1,0 +1,2 @@
+- [ ] make build also generate compile commands
+    - build step depends on run step?

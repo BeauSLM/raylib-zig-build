@@ -23,7 +23,7 @@ pub fn build(b: *std.Build) void {
         .name = "raylib-zig-build",
         // In this case the main source file is merely a path, however, in more
         // complicated build scripts, this could be a generated file.
-        .root_source_file = .{ .path = "src/main.c" },
+        .root_source_file = .{ .path = "src/main.cpp" },
         .target = target,
         .optimize = optimize,
     });
@@ -84,5 +84,4 @@ pub fn build(b: *std.Build) void {
     // add a step called "cdb" (Compile commands DataBase) for making
     // compile_commands.json. could be named anything. cdb is just quick to type
     zcc.createStep(b, "cdb", targets.toOwnedSlice() catch @panic("OOM"));
-
 }
