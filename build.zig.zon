@@ -8,8 +8,8 @@
     },
     .dependencies = .{
         .raylib = .{
-            .url = "https://github.com/BeauSLM/raylib/archive/56f2980940770be132ac8be73e6731a6e76254b8.tar.gz",
-            .hash = "12207cfd68fd57b13ee8d4fa0f3059c164dc8624b27857d8450401b83240447baaef",
+            .url = "https://github.com/BeauSLM/raylib/archive/301d1b85ab62b13d072a0430668602398b382104.tar.gz",
+            .hash = "1220c74534f4f245c6b4aa5e964aaeb1410a8b21961eeeaf2261f16901281e410776",
         },
     },
 }
